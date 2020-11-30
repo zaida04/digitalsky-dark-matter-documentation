@@ -4,9 +4,8 @@
 
 ## Guide
 
----
-
-* [Introduction](intro.md)
-
-## Docs <a id="docs-1"></a>
+* [Introduction](guide/intro.md)
+* [Create Control Page](guide/create-control-page.md)
+* [Create Button Set](guide/create-button-set.md)
+* [Managing Assets](guide/managing-assets.md)
 
