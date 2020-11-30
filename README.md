@@ -1,6 +1,8 @@
 # Digital Sky Dark Matter Documentation
 
-Community sourced documentation regarding Dark Matter. [**Documentation**](./)
+Community sourced documentation regarding Dark Matter.
+
+[**Documentation**](./)
 
 ## Table of Contents
 
