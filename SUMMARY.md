@@ -4,9 +4,9 @@
 
 ## Guide
 
-* [Untitled](guide/untitled.md)
+---
+
+* [Introduction](intro.md)
 
 ## Docs <a id="docs-1"></a>
-
-* [Introduction](docs-1/intro.md)
 
