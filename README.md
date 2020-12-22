@@ -8,7 +8,7 @@ description: Community sourced documentation regarding Dark Matter.
 
 ### Getting Started:
 
-* [I](getting-started/intro.md)ntroduction
+* [Introductions](getting-started/intro.md)
 * [Definitions](getting-started/definitions.md)
 
 ## About
