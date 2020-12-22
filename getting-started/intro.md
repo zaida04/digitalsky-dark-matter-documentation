@@ -11,7 +11,7 @@ If you see this above a section, it serves as a hint or some advice
 
 
 {% hint style="warning" %}
-If you see this above a section, this means you should exercise caution in what ever you do, and that it would generally be a good idea to have regular backups of your work
+If you see this above a section, this means you should exercise caution in what ever you do. You should read this warning in it's entirety and ensure you understand it before you continue.
 {% endhint %}
 
 
