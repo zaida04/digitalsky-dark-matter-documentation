@@ -1,10 +1,8 @@
 ---
-description: Main page for the DSDMD
+description: Community sourced documentation regarding Dark Matter.
 ---
 
 # Digital Sky Dark Matter Documentation
-
-Community sourced documentation regarding Dark Matter.
 
 ## Table of Contents
 
