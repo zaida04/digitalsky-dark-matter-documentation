@@ -2,10 +2,12 @@
 
 * [Digital Sky Dark Matter Documentation](README.md)
 
-## Guide
+## Getting Started
 
-* [Introduction](guide/intro.md)
-* [Create Control Page](guide/create-control-page.md)
-* [Create Button Set](guide/create-button-set.md)
-* [Managing Assets](guide/managing-assets.md)
+* [Introduction](getting-started/intro.md)
+* [Definitions](getting-started/definitions.md)
+* [Create Control Page](getting-started/create-control-page.md)
+* [Create Button Set](getting-started/create-button-set.md)
+* [Managing Assets](getting-started/managing-assets.md)
+* [Exporting](getting-started/exporting.md)
 
