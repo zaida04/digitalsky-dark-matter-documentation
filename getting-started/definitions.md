@@ -11,7 +11,7 @@ description: A list of terms that are used throughout Dark Matter
     * Regular - a set of instructions that execute once you click
     * Label - a button that only serves to provide a sense of organization within the Button Set.
     * Slider - allow you to choose the intensity/amount of input given to the button script, allow you to change things like the light amount or speed. Can only be used in Live Action.
-* **Button Set** - A collection of similarly related buttons with the ability to organize them using various _Label Buttons_.
+* **Button Set, or a Control Page** - A collection of similarly related buttons with the ability to organize them using various _Label Buttons_ or dragging around.
 * **Asset** - anything that can be considered a resource used inside a _Button_, such as an Image, Text, 3D model, and more. These have to be explicitly loaded in the Button scripts \(imported, whatever you wish to call them\).
 
 
