@@ -10,4 +10,5 @@
 * [Create a button](getting-started/create-a-button.md)
 * [Managing Assets](getting-started/managing-assets.md)
 * [Exporting](getting-started/exporting.md)
+* [Potential Bugs](getting-started/potential-bugs.md)
 

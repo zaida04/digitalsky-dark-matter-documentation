@@ -4,16 +4,13 @@ description: Community sourced documentation regarding Dark Matter.
 
 # Digital Sky Dark Matter Documentation
 
-## Table of Contents
-
-### Getting Started:
-
-* [Introductions](getting-started/intro.md)
-* [Definitions](getting-started/definitions.md)
-
 ## About
 
 Sky-Skan doesn't provide a clear cut documentation for functions and properties regarding _Digital Sky Dark Matter_. This repository aims to solve that, by allowing the community to work together to compile their own documentation.
+
+### Dive right in!:
+
+You can look at the sidebar on the left for the table of contents/layout of the whole guide.
 
 ## Contributing
 
