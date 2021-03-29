@@ -16,9 +16,13 @@ We're going to quickly dissect this window so you know what each button does. Th
 If the folder doesn't have the open icon, ASSETS CHANGED WILL NOT SAVE. 
 {% endhint %}
 
+![Closed folder icon](../.gitbook/assets/image%20%285%29.png)
+
+![Open folder icon](../.gitbook/assets/image%20%283%29.png)
+
 Now, onto creating the asset itself. If you see where `A5` is on the image above, that's where the different _types_ of assets are. The main types are slide and text for our purposes. 
 
-![Slide and Text \(left and right\)](../.gitbook/assets/image%20%288%29.png)
+![Slide and Text \(left and right\)](../.gitbook/assets/image%20%2810%29.png)
 
 Let's start with the **slide** asset type. If you go ahead and click on it, you'll be prompted to give your new asset a name. **Note: You must have a folder selected to create an asset. The asset needs somewhere to go.** Once you go ahead and hit OK you'll notice that we have a new entry in the list under our various asset manager buttons. If you go ahead and click on it, you now have access to your very own asset. We will go over the various customization options for assets later. If you want to load an asset into a button, just click on the asset entry in the list that we talked about before, and drag it over to your button ScriptPad. This will make a line similar to: `Assets FolderName.Load(AssetName)` . You now have the button in your script ready to be used.
 
