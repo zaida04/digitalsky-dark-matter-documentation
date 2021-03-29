@@ -8,7 +8,7 @@ description: Using one of the most important features in Dark Matter
 Keep in mind that my layout of my workspace will differ from yours, if you do not see a specific window you can reopen it by going to the `Windows` tab \(next to File and Theme\) and then reopening the window you need.
 {% endhint %}
 
-As the definitions page will tell you, a button set is `A collection of similarly related buttons with the ability to organize them using various` _`Label Buttons`_ `or dragging around.` 
+As the definitions page will tell you, a button set is `A collection of similarly related buttons with the ability to organize them using various label buttons or dragging around.`
 
 To create one, you have to go to `Windows > New Control Page` . After you've done so, a little window like this should pop up
 

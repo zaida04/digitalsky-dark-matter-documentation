@@ -13,6 +13,11 @@ description: A list of terms that are used throughout Dark Matter
     * Slider - allow you to choose the intensity/amount of input given to the button script, allow you to change things like the light amount or speed. Can only be used in Live Action.
 * **Button Set, or a Control Page** - A collection of similarly related buttons with the ability to organize them using various _Label Buttons_ or dragging around.
 * **Asset** - anything that can be considered a resource used inside a _Button_, such as an Image, Text, 3D model, and more. These have to be explicitly loaded in the Button scripts \(imported, whatever you wish to call them\).
+* **Window** - a visual area with a clear divider that has a specific purpose
+  * Viewport - allows you to see a live render of the universe and how allows you to preview your buttons in real-time
+  * Control page - collection of buttons
+  * Asset Manager - allows you to manage assets being used in buttons and the general universe
+  * ScriptPad - script control
 
 
 
