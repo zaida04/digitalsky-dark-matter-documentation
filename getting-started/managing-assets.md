@@ -26,3 +26,31 @@ Now, onto creating the asset itself. If you see where `A5` is on the image above
 
 Let's start with the **slide** asset type. If you go ahead and click on it, you'll be prompted to give your new asset a name. **Note: You must have a folder selected to create an asset. The asset needs somewhere to go.** Once you go ahead and hit OK you'll notice that we have a new entry in the list under our various asset manager buttons. If you go ahead and click on it, you now have access to your very own asset. We will go over the various customization options for assets later. If you want to load an asset into a button, just click on the asset entry in the list that we talked about before, and drag it over to your button ScriptPad. This will make a line similar to: `Assets FolderName.Load(AssetName)` . You now have the button in your script ready to be used.
 
+
+
+## Creating a Text Asset
+
+Among the many types of Assets you can create in Dark Matter, the Text Asset is one of the most important ones. If you refer to the Asset Manager image above, if you scroll down `A5` you'll come across a T shaped icon, as shown in the figure below 
+
+![Slide Asset \(left\) and Text Asset \(Right\)](../.gitbook/assets/image%20%2812%29.png)
+
+If you click on the Text Asset, like all other assets, it'll prompt you for a title to give the asset and will allow you to hit Ok and create the asset.
+
+{% hint style="warning" %}
+You must have a folder selected for the asset to go to, if you don't have one selected then Dark Matter will NOT allow you to create the asset.
+{% endhint %}
+
+Once you have created your text asset, you'll see a new entry in the asset list in the folder you selected. From there you can look at the options on the right hand side as depicted in the figure below. 
+
+![Options for a Text Asset](../.gitbook/assets/image%20%2813%29.png)
+
+From there, you can change the necessary settings for a text asset. One thing you'll most likely want to change is the `String` option, which is the text that is displayed. Inside that text box, go ahead and put in whatever you want your text to say. You can also change addition things like `text color`, `line spacing`, and more. You can change the positioning, rotation, and more of the text by changing the options under the `Apperance` tab. You now have a text asset usable in your project, just drag it into your scripts and you're ready to roll.
+
+## How to make a Slide Asset \(Image\)
+
+The steps to making a Slide Asset are almost identical to the Text Asset portion. Because it is also an asset you will most likely be making, we're going to go over it. Scroll to the same area you saw the Text Asset icon at in `A5` \(if you don't remember where this is, refer to the figure regarding it in the above section\). Directly on the other side of the Text Asset icon, there is the Slide Asset icon. Go ahead and create it with the same steps the Text Asset took. 
+
+![Slide Asset options](../.gitbook/assets/image%20%2814%29.png)
+
+Now the major part here is selecting the path to the image you want connected to this slide. Under the `Appearance` tab, you'll notice the `Picture` option, go ahead and click the empty button next to the path, and it'll direct you to navigate to the media you want to use with this asset. Once you've chosen your asset, you'll notice the text in `Picture` has changed to the path leading to your media. You now have a slide asset that you can use in your projects just like how you use the other assets.
+
