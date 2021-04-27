@@ -16,6 +16,10 @@ We're going to quickly dissect this window so you know what each button does. Th
 If the folder doesn't have the open icon, ASSETS CHANGED WILL NOT SAVE. 
 {% endhint %}
 
+{% hint style="warning" %}
+If you click onto another folder, you must repeat this process to ensure that you always have an open folder icon like shown below, otherwise your changes won't save and you cannot create new assets.
+{% endhint %}
+
 ![Closed folder icon](../.gitbook/assets/image%20%285%29.png)
 
 ![Open folder icon](../.gitbook/assets/image%20%283%29.png)
