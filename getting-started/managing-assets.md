@@ -58,7 +58,7 @@ The steps to making a Slide Asset are almost identical to the Text Asset portion
 
 Now the major part here is selecting the path to the image you want connected to this slide. Under the `Appearance` tab, you'll notice the `Picture` option, go ahead and click the empty button next to the path, and it'll direct you to navigate to the media you want to use with this asset. Once you've chosen your asset, you'll notice the text in `Picture` has changed to the path leading to your media. You now have a slide asset that you can use in your projects just like how you use the other assets.
 
-## How to customize slide assets
+## How to customize Slide assets
 
 ![Random asset&apos;s appearance settings](../.gitbook/assets/zoom_obuotg3zhm.png)
 
@@ -72,4 +72,25 @@ All slides allow you to customize how they look on the screen, things like size,
 * **Width -** The width of the asset
 * **Height -** The height of the asset
 * **Lock -** Whether or not the width and height are locked. Commonly referred to as an "Aspect Ratio lock".
+
+## How to create Video assets
+
+Video assets are broken up into two parts. A **Media** asset and a **Slide** asset. The Media asset is what will contain the actual reference to the video file, while the Slide asset will just contain a reference to the Media asset. Think of the Slide asset as a canvas and the Media asset is just the actual art itself being put on the canvas. 
+
+![Media asset](../.gitbook/assets/image%20%2816%29.png)
+
+To create a Media asset, navigate to the Asset Manager and scroll down the Asset type list till you come across the Media asset type \(shown above\). From there, create it the same way you'd create other assets: assigning it a name and a folder destination. 
+
+![Media asset configuration tab](../.gitbook/assets/image%20%2815%29.png)
+
+Once you select your Media asset, you'll see the configuration tab on the right looks different from how the other Assets look. From there, you can customize the following properties \(and more\):
+
+* **Looping -** Whether this asset will start from the beginning once it reaches the end.
+* **File -** The path to the video/other media type file that will be connected to this Media asset.
+* **Audio -** If your audio is separated from your video file \(i.e. gif\), then you can provide the path to your audio file.
+* **Volume -** The volume in which the audio from your video or audio file will be played at.
+
+Now that you have your Media asset all set up, you can go the Slide asset that you created earlier. For the "picture" property of your Slide asset, place the following: \`Media:testVideoMedia\`. This text is broken up into two parts:  the "Media:" part that distinguishes to the Slide asset that you are not providing an actual file, but instead a reference to a Media asset, and the "testVideoMedia" part, which is just the name of the Media asset you are referencing.
+
+Once you save both assets, you are ready to use them in your script. You must load in both the Slide asset and the Media asset. 
 
