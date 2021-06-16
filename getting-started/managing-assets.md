@@ -94,3 +94,7 @@ Now that you have your Media asset all set up, you can go the Slide asset that y
 
 Once you save both assets, you are ready to use them in your script. You must load in both the Slide asset and the Media asset. 
 
+![Example Loading of Media asset](../.gitbook/assets/image%20%2817%29.png)
+
+An example is above, where lines 1 & 2 load in the Media asset & the Slide asset. From there, line 4 is what actually starts the Media asset and plays it. Be sure to unload the assets once you are done so you aren't using memory unnecessarily!
+
