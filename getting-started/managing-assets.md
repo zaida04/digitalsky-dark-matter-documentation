@@ -44,7 +44,7 @@ If you click on the Text Asset, like all other assets, it'll prompt you for a ti
 You must have a folder selected for the asset to go to, if you don't have one selected then Dark Matter will NOT allow you to create the asset.
 {% endhint %}
 
-Once you have created your text asset, you'll see a new entry in the asset list in the folder you selected. From there you can look at the options on the right hand side as depicted in the figure below. 
+Once you have created your text asset, you'll see a new entry in the asset list in the folder you selected. From there you can look at the options on the right-hand side as depicted in the figure below. 
 
 ![Options for a Text Asset](../.gitbook/assets/image%20%2813%29.png)
 
@@ -90,11 +90,11 @@ Once you select your Media asset, you'll see the configuration tab on the right 
 * **Audio -** If your audio is separated from your video file \(i.e. gif\), then you can provide the path to your audio file.
 * **Volume -** The volume in which the audio from your video or audio file will be played at.
 
-Now that you have your Media asset all set up, you can go the Slide asset that you created earlier. For the "picture" property of your Slide asset, place the following: \`Media:testVideoMedia\`. This text is broken up into two parts:  the "Media:" part that distinguishes to the Slide asset that you are not providing an actual file, but instead a reference to a Media asset, and the "testVideoMedia" part, which is just the name of the Media asset you are referencing.
+Now that you have your Media asset all set up, you can go to the Slide asset that you created earlier. For the "picture" property of your Slide asset, place the following: \`Media:testVideoMedia\`. This text is broken up into two parts:  the "Media:" part that distinguishes to the Slide asset that you are not providing an actual file, but instead a reference to a Media asset, and the "testVideoMedia" part, which is just the name of the Media asset you are referencing.
 
 Once you save both assets, you are ready to use them in your script. You must load in both the Slide asset and the Media asset. 
 
 ![Example Loading of Media asset](../.gitbook/assets/image%20%2817%29.png)
 
-An example is above, where lines 1 & 2 load in the Media asset & the Slide asset. From there, line 4 is what actually starts the Media asset and plays it. Be sure to unload the assets once you are done so you aren't using memory unnecessarily!
+An example is above, where lines 1 & 2 loads in the Media asset & the Slide asset. From there, line 4 is what starts the Media asset and plays it. Be sure to unload the assets once you are done so you aren't using memory unnecessarily!
 
