@@ -98,3 +98,7 @@ Once you save both assets, you are ready to use them in your script. You must lo
 
 An example is above, where lines 1 & 2 loads in the Media asset & the Slide asset. From there, line 4 is what starts the Media asset and plays it. Be sure to unload the assets once you are done so you aren't using memory unnecessarily!
 
+{% hint style="warning" %}
+Remember to always save your assets once you are finished configuring them. Otherwise, you run the risk of losing your work!
+{% endhint %}
+
