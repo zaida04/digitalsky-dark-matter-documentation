@@ -104,11 +104,23 @@ Once you save both assets, you are ready to use them in your script. You must lo
 
 `Scene testVideoMedia.play()`
 
+`Control text="Video over, let's continue!"`
+
+`Control pause`
+
 `Assets Stars-Spectrum.unload(testVideoMedia)` 
 
 `Assets Stars-Spectrum.unload(testVideoSlide)`
 
-An example is above, where lines 1 & 2 loads in the Media asset & the Slide asset. Line 3 is a delay we give to ensure the assets are loaded in time. From there, line 5 is what starts the Media asset and plays it. Lines 6 & 7 unload the assets once you are done so you aren't using memory unnecessarily!
+Lines 1 & 2 load in the Media asset & the Slide asset. 
+
+Line 3 is a delay we give to ensure the assets are loaded in time. 
+
+line 5 is what starts the Media asset and plays it. 
+
+Lines 6 & 7 change the button text and ensure that we're waiting until the video is done before we click to proceed.
+
+Lines 8 & 9 unload the assets once you are done so you aren't using memory unnecessarily!
 
 {% hint style="warning" %}
 Remember to always save your assets once you are finished configuring them. Otherwise, you run the risk of losing your work!
