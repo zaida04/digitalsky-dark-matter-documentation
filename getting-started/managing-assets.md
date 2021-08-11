@@ -92,11 +92,23 @@ Once you select your Media asset, you'll see the configuration tab on the right 
 
 Now that you have your Media asset all set up, you can go to the Slide asset that you created earlier. For the "picture" property of your Slide asset, place the following: \`Media:testVideoMedia\`. This text is broken up into two parts:  the "Media:" part that distinguishes to the Slide asset that you are not providing an actual file, but instead a reference to a Media asset, and the "testVideoMedia" part, which is just the name of the Media asset you are referencing.
 
-Once you save both assets, you are ready to use them in your script. You must load in both the Slide asset and the Media asset. 
+Once you save both assets, you are ready to use them in your script. You must load in both the Slide asset and the Media asset. Your code will look something like this:
 
-![Example Loading of Media asset](../.gitbook/assets/image%20%2817%29.png)
+`Assets Stars-Spectrum.Load(testVideoMedia)` 
 
-An example is above, where lines 1 & 2 loads in the Media asset & the Slide asset. From there, line 4 is what starts the Media asset and plays it. Be sure to unload the assets once you are done so you aren't using memory unnecessarily!
+`Assets Stars-Spectrum.Load(testVideoSlide)` 
+
+`+0.5`
+
+`Scene testVideoSlide.Visibility=100` 
+
+`Scene testVideoMedia.play()`
+
+`Assets Stars-Spectrum.unload(testVideoMedia)` 
+
+`Assets Stars-Spectrum.unload(testVideoSlide)`
+
+An example is above, where lines 1 & 2 loads in the Media asset & the Slide asset. Line 3 is a delay we give to ensure the assets are loaded in time. From there, line 5 is what starts the Media asset and plays it. Lines 6 & 7 unload the assets once you are done so you aren't using memory unnecessarily!
 
 {% hint style="warning" %}
 Remember to always save your assets once you are finished configuring them. Otherwise, you run the risk of losing your work!
