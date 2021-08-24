@@ -9,7 +9,9 @@
 * [Laying out the workspace](getting-started/laying-out-the-workspace.md)
 * [Create Control Page](getting-started/create-control-page.md)
 * [Create a button](getting-started/create-a-button.md)
-* [Managing Assets](getting-started/managing-assets.md)
+* [Assets](getting-started/assets.md)
+* [Photo Assets](getting-started/photo-assets.md)
+* [Video Assets](getting-started/video-assets.md)
 * [Potential Bugs](getting-started/potential-bugs.md)
-* [exporting](getting-started/exporting.md)
+* [Exporting](getting-started/exporting.md)
 

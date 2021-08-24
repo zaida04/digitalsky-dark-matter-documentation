@@ -4,7 +4,7 @@ description: >-
   covered!
 ---
 
-# exporting
+# Exporting
 
 ### Exporting a control page
 
