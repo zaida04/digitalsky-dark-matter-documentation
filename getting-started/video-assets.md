@@ -1,7 +1,5 @@
 # Video Assets
 
-
-
 ## How to do Regular Video
 
 Video assets are broken up into two parts. A **Media** asset and a **Slide** asset. The Media asset is what will contain the actual reference to the video file, while the Slide asset will just contain a reference to the Media asset. Think of the Slide asset as a canvas and the Media asset is just the actual art itself being put on the canvas. 
@@ -23,23 +21,17 @@ Now that you have your Media asset all set up, you can go to the Slide asset tha
 
 Once you save both assets, you are ready to use them in your script. You must load in both the Slide asset and the Media asset. Your code will look something like this:
 
-`Assets Stars-Spectrum.Load(testVideoMedia)` 
-
-`Assets Stars-Spectrum.Load(testVideoSlide)` 
-
-`+0.5`
-
-`Scene testVideoSlide.Visibility=100` 
-
-`Scene testVideoMedia.play()`
-
-`Control text="Video over, let's continue!"`
-
-`Control pause`
-
-`Assets Stars-Spectrum.unload(testVideoMedia)` 
-
-`Assets Stars-Spectrum.unload(testVideoSlide)`
+```text
+Assets YOUR_FOLDER_NAME.Load(YOUR_MEDIA_ASSET) 
+Assets YOUR_FOLDER_NAME.Load(YOUR_SLIDE_ASSET) 
++0.5
+Scene YOUR_SLIDE_ASSET.Visibility=100 
+Scene YOUR_MEDIA_ASSET.play()
+Control text="Video over, let's continue!"
+Control pause
+Assets YOUR_FOLDER_NAME.unload(YOUR_MEDIA_ASSET) 
+Assets YOUR_FOLDER_NAME.unload(YOUR_SLIDE_ASSET)
+```
 
 Lines 1 & 2 load in the Media asset & the Slide asset. 
 
@@ -50,6 +42,23 @@ line 5 is what starts the Media asset and plays it.
 Lines 6 & 7 change the button text and ensure that we're waiting until the video is done before we click to proceed.
 
 Lines 8 & 9 unload the assets once you are done so you aren't using memory unnecessarily!
+
+## How to do Full Dome Video
+
+Full dome video steps are similar to the above regular video steps. The only step you'd remove is creating and editing the Slide asset that you would create connected to your Media asset. There is a Global Asset meant to be used with Full Dome video, so you'd simply write the following code:
+
+```text
+Assets YOUR_ASSET_FOLDER.Load(YOUR_MEDIA_ASSET)
++2
+Scene testVideoMedia.Play()
++1
+Scene Video.Source="Media:YOUR_MEDIA_ASSET"
+Control Pause
+Scene Video.Visibility=0 [1]
+Scene YOUR_MEDIA_ASSET.Volume=0 [1]
++1
+Assets YOUR_ASSET_FOLDER.Unload(YOUR_MEDIA_ASSET)
+```
 
 {% hint style="warning" %}
 Remember to always save your assets once you are finished configuring them. Otherwise, you run the risk of losing your work!
