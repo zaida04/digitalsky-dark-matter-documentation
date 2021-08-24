@@ -38,9 +38,15 @@ Once you have an asset created, it is as simple as:
 
 Once you do that, there should be a new code snippet in your Script tab looking something like this:
 
-![The snippet generated will be like this: &quot;Assets YOUR\_ASSET\_FOLDER\_NAME.Load\(YOUR\_ASSET\_NAME\)&quot;](../.gitbook/assets/image%20%2820%29.png)
+![](../.gitbook/assets/image%20%2820%29.png)
 
-These same steps can be done for the properties of a slide, like Visibility. Say, for example you'd like to hardcode the starting value of your Slide Asset to 100, you would repeat the above steps but click on the actual property you want to drag over -- as shown below.
+For a copy-paste version of the generated code:
+
+```text
+Assets YOUR_ASSET_FOLDER_NAME.Load(YOUR_ASSET_NAME)
+```
+
+These same steps can be done for the properties of a slide, like Visibility. Say, for example you'd like to hard-code the starting value of your Slide Asset to 100, you would repeat the above steps but click on the actual property you want to drag over -- as shown below.
 
 ![Photo version of where you&apos;d click and where you&apos;d drag to](../.gitbook/assets/image%20%2818%29.png)
 
