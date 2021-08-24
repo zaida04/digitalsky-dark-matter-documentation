@@ -25,6 +25,29 @@ All slides allow you to customize how they look on the screen, things like size,
 * **Height -** The height of the asset
 * **Lock -** Whether or not the width and height are locked. Commonly referred to as an "Aspect Ratio lock".
 
+## How to use Image Assets in your buttons
+
+Once you have an asset created, it is as simple as:
+
+* Open the Button script up
+* Click on the Asset you wish to load
+* Drag the Asset name all the way to the script text area
+* Let go and watch the code be auto-generated for you
+
+![Photo version of the above steps](../.gitbook/assets/image%20%2821%29.png)
+
+Once you do that, there should be a new code snippet in your Script tab looking something like this:
+
+![The snippet generated will be like this: &quot;Assets YOUR\_ASSET\_FOLDER\_NAME.Load\(YOUR\_ASSET\_NAME\)&quot;](../.gitbook/assets/image%20%2820%29.png)
+
+These same steps can be done for the properties of a slide, like Visibility. Say, for example you'd like to hardcode the starting value of your Slide Asset to 100, you would repeat the above steps but click on the actual property you want to drag over -- as shown below.
+
+![Photo version of where you&apos;d click and where you&apos;d drag to](../.gitbook/assets/image%20%2818%29.png)
+
+![The generated code snippet](../.gitbook/assets/image%20%2819%29.png)
+
+As you can see, manual coding isn't needed entirely throughout Dark Matter, you can have the application generate the code for your Button scripts most of the time.
+
 {% hint style="warning" %}
 Remember to always save your assets once you are finished configuring them. Otherwise, you run the risk of losing your work!
 {% endhint %}

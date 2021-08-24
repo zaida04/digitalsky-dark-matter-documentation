@@ -2,7 +2,7 @@
 
 
 
-## How to create Video assets
+## How to do Regular Video
 
 Video assets are broken up into two parts. A **Media** asset and a **Slide** asset. The Media asset is what will contain the actual reference to the video file, while the Slide asset will just contain a reference to the Media asset. Think of the Slide asset as a canvas and the Media asset is just the actual art itself being put on the canvas. 
 
