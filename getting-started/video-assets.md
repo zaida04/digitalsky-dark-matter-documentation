@@ -49,16 +49,16 @@ Full dome video steps are similar to the above regular video steps. The only ste
 
 ```text
 Assets YOUR_ASSET_FOLDER.Load(YOUR_MEDIA_ASSET)
-+2
-Scene testVideoMedia.Play()
++1
+Scene YOUR_MEDIA_ASSET.Play()
 +1
 Scene Video.Source="Media:YOUR_MEDIA_ASSET"
 Control Pause
-Scene Video.Visibility=0 [1]
-Scene YOUR_MEDIA_ASSET.Volume=0 [1]
 +1
 Assets YOUR_ASSET_FOLDER.Unload(YOUR_MEDIA_ASSET)
 ```
+
+The following code loads in your Media asset, starts it, then sets the Global Asset used for Full Dome Video \(that Video.Source line, the Video portion is what would be the Global Asset\) to your Media asset. Once the video is done playing, you can press the button again and it'll unload the Media asset. 
 
 {% hint style="warning" %}
 Remember to always save your assets once you are finished configuring them. Otherwise, you run the risk of losing your work!
