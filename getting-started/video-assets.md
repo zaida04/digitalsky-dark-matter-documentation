@@ -4,11 +4,11 @@
 
 Video assets are broken up into two parts. A** Media** asset and a **Slide** asset. The Media asset is what will contain the actual reference to the video file, while the Slide asset will just contain a reference to the Media asset. Think of the Slide asset as a canvas and the Media asset is just the actual art itself being put on the canvas.&#x20;
 
-![Media asset](<../.gitbook/assets/image (15).png>)
+![Media asset](<../.gitbook/assets/image (16).png>)
 
 To create a Media asset, navigate to the Asset Manager and scroll down the Asset type list till you come across the Media asset type (shown above). From there, create it the same way you'd create other assets: assigning it a name and a folder destination.&#x20;
 
-![Media asset configuration tab](<../.gitbook/assets/image (16).png>)
+![Media asset configuration tab](<../.gitbook/assets/image (15).png>)
 
 Once you select your Media asset, you'll see the configuration tab on the right looks different from how the other Assets look. From there, you can customize the following properties (and more):
 

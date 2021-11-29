@@ -12,7 +12,7 @@ Now the major part here is selecting the path to the image you want connected to
 
 ## How to customize Slide assets
 
-![Random asset's appearance settings](../.gitbook/assets/Zoom\_obUOtg3ZhM.png)
+![Random asset's appearance settings](../.gitbook/assets/zoom\_obuotg3zhm.png)
 
 All slides allow you to customize how they look on the screen, things like size, position, and more are easily configurable through the Appearance tab. You can find the Appearance tab by scrolling down the list that'll open up on the right hand side (that looks like the above image) when you select an asset in the asset manager. From there, you can customize the following:
 
@@ -34,11 +34,11 @@ Once you have an asset created, it is as simple as:
 * Drag the Asset name all the way to the script text area
 * Let go and watch the code be auto-generated for you
 
-![Photo version of the above steps](<../.gitbook/assets/image (18).png>)
+![Photo version of the above steps](<../.gitbook/assets/image (21).png>)
 
 Once you do that, there should be a new code snippet in your Script tab looking something like this:
 
-![](<../.gitbook/assets/image (19).png>)
+![](<../.gitbook/assets/image (20).png>)
 
 For a copy-paste version of the generated code:
 
@@ -48,9 +48,9 @@ Assets YOUR_ASSET_FOLDER_NAME.Load(YOUR_ASSET_NAME)
 
 These same steps can be done for the properties of a slide, like Visibility. Say, for example you'd like to hard-code the starting value of your Slide Asset to 100, you would repeat the above steps but click on the actual property you want to drag over -- as shown below.
 
-![Photo version of where you'd click and where you'd drag to](<../.gitbook/assets/image (20).png>)
+![Photo version of where you'd click and where you'd drag to](<../.gitbook/assets/image (18).png>)
 
-![The generated code snippet](<../.gitbook/assets/image (21).png>)
+![The generated code snippet](<../.gitbook/assets/image (19).png>)
 
 As you can see, manual coding isn't needed entirely throughout Dark Matter, you can have the application generate the code for your Button scripts most of the time.
 

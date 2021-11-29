@@ -13,5 +13,4 @@
 * [Photo Assets](getting-started/photo-assets.md)
 * [Video Assets](getting-started/video-assets.md)
 * [Potential Bugs](getting-started/potential-bugs.md)
-* [Exporting](getting-started/exporting.md)
-
+* [Exporting/Importing](getting-started/exporting.md)
