@@ -48,7 +48,7 @@ Lines 8 & 9 unload the assets once you are done so you aren't using memory unnec
 Full dome video steps are similar to the above regular video steps. The only step you'd remove is creating and editing the Slide asset that you would create connected to your Media asset. There is a Global Asset meant to be used with Full Dome video, so you'd simply write the following code:
 
 {% hint style="danger" %}
-When you create the media asset and select the MSI and DSI file from the file picker, you will most likely have a path that includes a number at the end. **You need to replace that number with a wildcard "\*" or the video will not be full dome.**\
+When you create the media asset and select the MPG and DSI file from the file picker, you will most likely have a path that includes a number at the end. **You need to replace that number with a wildcard "\*" or the video will not be full dome.**\
 ****\
 ****Example: `E:\DigitalSkyDM\Modules\Skyvision\ClipsDemos\ESO-CMEandEarth_01.mpg`
 
