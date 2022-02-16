@@ -2,7 +2,7 @@
 
 ## How to do Regular Video
 
-Video assets are broken up into two parts. A** Media** asset and a **Slide** asset. The Media asset is what will contain the actual reference to the video file, while the Slide asset will just contain a reference to the Media asset. Think of the Slide asset as a canvas and the Media asset is just the actual art itself being put on the canvas.&#x20;
+Video assets are broken up into two parts. A **Media** asset and a **Slide** asset. The Media asset is what will contain the actual reference to the video file, while the Slide asset will just contain a reference to the Media asset. Think of the Slide asset as a canvas and the Media asset is just the actual art itself being put on the canvas.&#x20;
 
 ![Media asset](<../.gitbook/assets/image (16).png>)
 
@@ -12,10 +12,10 @@ To create a Media asset, navigate to the Asset Manager and scroll down the Asset
 
 Once you select your Media asset, you'll see the configuration tab on the right looks different from how the other Assets look. From there, you can customize the following properties (and more):
 
-* **Looping - **Whether this asset will start from the beginning once it reaches the end.
-* **File - **The path to the video/other media type file that will be connected to this Media asset.
-* **Audio - **If your audio is separated from your video file (i.e. gif), then you can provide the path to your audio file.
-* **Volume - **The volume in which the audio from your video or audio file will be played at.
+* **Looping -** Whether this asset will start from the beginning once it reaches the end.
+* **File -** The path to the video/other media type file that will be connected to this Media asset.
+* **Audio -** If your audio is separated from your video file (i.e. gif), then you can provide the path to your audio file.
+* **Volume -** The volume in which the audio from your video or audio file will be played at.
 
 Now that you have your Media asset all set up, you can go to the Slide asset that you created earlier. For the "picture" property of your Slide asset, place the following: \`Media:testVideoMedia\`. This text is broken up into two parts:  the "Media:" part that distinguishes to the Slide asset that you are not providing an actual file, but instead a reference to a Media asset, and the "testVideoMedia" part, which is just the name of the Media asset you are referencing.
 
@@ -46,6 +46,10 @@ Lines 8 & 9 unload the assets once you are done so you aren't using memory unnec
 ## How to do Full Dome Video
 
 Full dome video steps are similar to the above regular video steps. The only step you'd remove is creating and editing the Slide asset that you would create connected to your Media asset. There is a Global Asset meant to be used with Full Dome video, so you'd simply write the following code:
+
+{% hint style="danger" %}
+When you create the media asset and select the MSI and DSI file from the file picker, you will most likely have a path that includes a number at the end. **You need to replace that number with a wildcard "\*" or the video will not be full dome.**
+{% endhint %}
 
 ```
 Assets YOUR_ASSET_FOLDER.Load(YOUR_MEDIA_ASSET)
